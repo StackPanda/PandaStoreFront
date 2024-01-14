@@ -9,6 +9,7 @@ import SideMenu from "@modules/layout/components/side-menu"
 import MobileMenu from "@modules/mobile-menu/templates"
 import DesktopSearchModal from "@modules/search/templates/desktop-search-modal"
 import Link from "next/link"
+import '../../../../styles/fonts.css';
 
 const Nav = () => {
   const { toggle } = useMobileMenu()
@@ -34,9 +35,9 @@ const Nav = () => {
           <div className="flex items-center h-full">
             <Link
               href="/"
-              className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
+              className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase FreshFont"
             >
-              Medusa Store
+              StackPanda Market
             </Link>
           </div>
 

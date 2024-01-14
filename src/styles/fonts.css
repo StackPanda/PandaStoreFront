@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'SoopaFresh';
+    src: local('MyFont'), url(./fonts/soopafre.ttf) format('ttf');
+}
+
+.FreshFont {
+    font-family: 'SoopaFresh';
+}

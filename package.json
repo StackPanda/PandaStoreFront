@@ -1,5 +1,5 @@
 {
-  "name": "medusa-next",
+  "name": "pandastorefront",
   "version": "1.0.3",
   "private": true,
   "author": "Kasper Fabricius Kristensen <kasper@medusajs.com> (https://www.medusajs.com)",
@@ -8,9 +8,9 @@
     "medusa-storefront"
   ],
   "scripts": {
-    "dev": "next dev -p 8000",
+    "dev": "next dev -p 4791",
     "build": "next build",
-    "start": "next start -p 8000",
+    "start": "next start -p 4791",
     "lint": "next lint",
     "cypress": "cypress open",
     "analyze": "ANALYZE=true next build"
